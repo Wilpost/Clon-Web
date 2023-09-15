@@ -1356,6 +1356,11 @@ strong {
 
 /* Estilos (Del la seccion de licensias y terminos de privacidad) */
 
+.section-terms-container {
+    display: flex;
+    justify-content: center;
+}
+
 .section-terms-privacy {
     height: 106vh;
     width: 100%;
@@ -1665,9 +1670,9 @@ footer {
         background-color: var(--Gris);
         align-items: center;
         height: 46px;
-        padding: 0 37px;
-        padding-left: 101px;
-        justify-content: center;
+        padding: -23px 15px 0px 55px;
+        padding-left: 293px;
+        justify-content: center; 
     }
 
     .arrow-down{
